@@ -1,22 +1,23 @@
 from os import system
 from time import sleep
 ads=[
-"suck my dick",
+"shave me",
 "please",
-"i need you to suck my dick",
+"show me",
 ]
 ads_duration=[
-3.0,
-4.0,
-5.0
+1.0,
+8.0,
+3.0
 ]
 
-
 while True:
-    ad=ads.pop(0)
-    ad1=ads_duration.pop(0)
-    print(">>",ad,"<<")
-    ad1=sleep
-    ads_duration.append(ad1)
-    ads.append(ad)
+        
+        ad=ads.pop(0)
+        ad1=ads_duration.pop(0)
+        print(">>",ad,"<<")
+        
+        sleep(ad1)
+        ads_duration.append(ad1)
+        ads.append(ad)
     
